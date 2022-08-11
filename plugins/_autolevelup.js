@@ -21,11 +21,11 @@ module.exports = {
       let str = `
 ${teks} 
 
-• 🧬Level Sebelumnya : ${before}
-• 🧬Level Baru : ${lvlnow}
+• Lv Sebelumnya : ${before}
+• Lv Baru : ${lvlnow}
 • Pada Jam : ${time}
 
-*_Semakin sering berinteraksi dengan bot Semakin Tinggi level kamu_*
+*_Makasih Udah Pake BOT ini_*
 `.trim()
       if (global.support.convert || global.support.magick || global.support.gm) {
         let fontLevel = 'src/level_c.otf'
