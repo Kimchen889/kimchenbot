@@ -1,5 +1,5 @@
-// Thanks to TOXIC-DEVIL
-// https://github.com/TOXIC-DEVIL
+// KimchenIsBOT
+// https://github.com/Kimchen889
 
 let handler = async (m, { conn, args }) => {
     if (!args || !args[0] || args.length === 0) throw 'Masukkan nomor untuk dipindai!'
