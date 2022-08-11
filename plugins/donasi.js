@@ -1,12 +1,12 @@
 let handler = async m => m.reply(`
 ╭─「 Donasi • Pulsa 」
-│ • Tri [0895637941123]
-│ • Gopay [081233211675]
+│ • Sf [08877782600]
+│ • Gopay [08877782600]
 ╰────
 ╭─「 Hubungi 」
-│ > Ingin donasi? Wa.me/62895637941123
+│ > Ingin donasi? Wa.me/08877782600
 ╰────
-`.trim()) // Tambah sendiri kalo mau
+`.trim()) // Makasih Donasi nya
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
