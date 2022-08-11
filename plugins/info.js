@@ -7,7 +7,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let uptime = clockString(_uptime) 
   let totalreg = Object.keys(global.DATABASE._data.users).length
   let old = Math.round(performance.now())
-  await m.reply('Wait Kakak!!')
+  await m.reply('Please Wait')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
 ╠═〘 ${package.name} 〙 ═
@@ -21,9 +21,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
-║
+╠➥ Gopay: 08877782600
 ╠═ Request? ${package.bugs.url}
 ╠═ Official Group *${conn.user.name}* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
@@ -42,8 +40,8 @@ ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n�
 ║ 
 ║ 
 ╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
-╠═〘 METRO BOT 〙 ═
+╠═ Scrip Remake By KimchenIsBOT
+╠═〘 Kimchen BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
