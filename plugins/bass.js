@@ -1,7 +1,6 @@
 // Jangan Hapus Ini:)
 // hargai yang nge buat
-// Case dhamz
-// Remake BochilGaming
+// KimchenIsBOT
 
 const fs = require('fs')
 const ffmpeg = require('fluent-ffmpeg')
